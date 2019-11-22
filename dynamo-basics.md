@@ -78,6 +78,7 @@ We also get the region from our env variables.
 # Basic Operations
 
 ### Put Item
+[AWS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#putItem-property)
 ```js
 const addItem: async (data) => {
     const params = {
