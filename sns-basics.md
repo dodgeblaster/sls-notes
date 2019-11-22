@@ -57,7 +57,7 @@ const sns = new AWS.SNS({
 ## Publish an event
 ```js
 const emit = {
-  userCreated: async () => {
+  userCreated: async (data) => {
     return SNS.publish({
             Subject: 'user-created',
             Message: JSON.stringify(data),
