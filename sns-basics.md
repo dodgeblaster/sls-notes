@@ -45,7 +45,7 @@ resources:
             TopicName: name-of-topic-${self:custom.stage}
 ```
 
-## How to setup Dynamo in a function
+## How to setup SNS
 In any file, you can setup a sns emitter by doing the following:
 ```js
 const AWS = require('aws-sdk')
