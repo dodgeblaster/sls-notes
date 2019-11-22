@@ -61,7 +61,7 @@ const emit = {
     return SNS.publish({
             Subject: 'user-created',
             Message: JSON.stringify(data),
-            TopicArn: `arn:aws:sns:#{process.env.REGION}:#{process.env.ACCOUNT_ID}:user-created`
+            TopicArn: `arn:aws:sns:${process.env.REGION}:${process.env.ACCOUNT_ID}:user-created`
         }).promise()
   }
 }
