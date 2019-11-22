@@ -127,6 +127,7 @@ const getItem: async (data) => {
 ```
 
 ### Get Many Items
+[AWS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#query-property)
 ```js
 const getAllItems: async (data) => {
     const params = {
