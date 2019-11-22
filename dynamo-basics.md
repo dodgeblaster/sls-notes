@@ -80,7 +80,7 @@ We also get the region from our env variables.
 ### Put Item
 [AWS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#putItem-property)
 ```js
-const addItem: async (data) => {
+const addItem = async (data) => {
     const params = {
         TableName: TABLE,
         Item: {
@@ -97,7 +97,7 @@ const addItem: async (data) => {
 ### Remove Item
 [AWS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#deleteItem-property)
 ```js
-const removeItem: async (data) => {
+const removeItem = async (data) => {
     const params = {
         TableName: TABLE,
         Key: {
@@ -113,7 +113,7 @@ const removeItem: async (data) => {
 ### Get 1 Item
 [AWS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#getItem-property)
 ```js
-const getItem: async (data) => {
+const getItem = async (data) => {
     const params = {
         TableName: TABLE,
         Key: {
@@ -130,7 +130,7 @@ const getItem: async (data) => {
 ### Get Many Items
 [AWS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#query-property)
 ```js
-const getAllItems: async (data) => {
+const getAllItems = async (data) => {
     const params = {
         TableName: TABLE,
         KeyConditionExpression: 'PK = :pk AND begins_with(SK, :sk)',
