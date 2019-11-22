@@ -95,6 +95,7 @@ const addItem: async (data) => {
 
 ```
 ### Remove Item
+[AWS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#deleteItem-property)
 ```js
 const removeItem: async (data) => {
     const params = {
