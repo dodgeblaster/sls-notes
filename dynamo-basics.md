@@ -110,6 +110,7 @@ const removeItem: async (data) => {
 ```
 
 ### Get 1 Item
+[AWS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#getItem-property)
 ```js
 const getItem: async (data) => {
     const params = {
