@@ -1,6 +1,6 @@
 # Serverless Notes
 
-This repo is a colelction of notes on common things I find myself doing in a serverless project.
+This repo is a collection of notes on common things I find myself doing in a serverless project.
 
 ### [DynamoDB Notes](dynamo-basics.md)
 - Notes on how to setup DynamoDB with the AWS-SDK
