@@ -1,5 +1,7 @@
 # Serverless Dynamo Basics
 
+[Further Resources](https://github.com/alexdebrie/awesome-dynamodb/)
+
 These docs assume a few things:
 - You are using the serverless cli
 - You have env variables set in serverless.yml
